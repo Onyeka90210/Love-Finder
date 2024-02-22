@@ -7,6 +7,7 @@ import About from './pages/About'
 import Members from './pages/Members'
 import Footer from './pages/Footer'
 import Testimonials from './pages/Testimonials'
+import './styles/NavBar.css'
 
 function App() {
 
