@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './App.css'
 import Hero from './pages/Hero'
 import NavBar from './pages/NavBar'
 import Form from './pages/Form'
