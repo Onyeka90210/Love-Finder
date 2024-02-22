@@ -1,0 +1,52 @@
+.heromain{
+    height: 91vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+.inner{
+    width: 25rem;
+    text-align: center;
+}
+.inner>h2{
+    font-size: 1.9rem;
+    color: white;
+}
+.inner>button{
+    border-radius: 10px;
+    width: 10rem;
+    height: 40px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    color:#7C0B0B;
+    background-color: white;
+    border: none;
+}
+@media(max-width: 700px){
+    .heromain{
+        background-repeat: repeat-y; 
+        background-size: cover;
+    }
+}
+@media(min-width: 1441px){
+    .heromain{
+        background-position-x: 42%; 
+
+        
+ }
+}
+@media(max-width: 1439px){
+    .heromain{
+background-position-x: 42%; 
+} 
+}

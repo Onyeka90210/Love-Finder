@@ -1,0 +1,94 @@
+.footerbackground{
+    width: 100%;
+font-size: 1rem;
+}
+.footercover{
+    height: 407px;
+    display: flex;
+    align-items: center;
+    background-color: #7c0b0b;
+
+
+}
+.footermain{
+    justify-content: space-between;
+        width: 90%;
+    margin: auto;
+    gap: 1rem;
+}
+
+.footernav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.FC>p{
+    margin-bottom: 0.3rem;
+}
+
+.AYR{
+    justify-content: space-around;
+    align-items: center;
+    gap: 15rem;
+    background-color: white;
+    height: 112px;
+    width: 695px;
+    border-radius: 30px;
+}
+.AYR>button{
+    width: 144px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color:#7c0b0b;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding-right: 2rem;
+}
+.FL{
+}
+.footlink
+{ color: white;
+    text-decoration: none;
+}
+.FN{
+    width: 320px;
+
+}
+.FLcover{
+
+}
+.testF{
+    width: 142px;
+}
+
+.FLdiv{
+margin-top: 3rem;
+margin-left: 5%;
+width: 142px;
+}
+
+@media(max-width: 991.5px){
+    .footermain{
+        width: 100%;
+    }
+    .AYR{
+        margin: auto;
+    }
+    .FN{ 
+        width: 70%;
+        margin: auto;
+
+       }
+       .FLdiv{
+        margin: auto;
+       }
+       .footernav{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+       }
+}
+

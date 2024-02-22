@@ -1,0 +1,100 @@
+.LE{
+    width: 558px;
+    height: 651px;
+
+}
+.imgdiv{
+    width: 558px;
+    height: 651px;
+
+}
+.formmain{
+justify-content: space-around;
+gap: 1rem;
+margin-top: 5rem;
+}
+.formdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 581px;
+    border: solid;
+    border-width: 1px;
+    border-color: #7C0B0B66;
+    height: 651px;
+}
+Form{
+    width: 463px;
+    height: 532px;
+
+}
+.formheading>h3{
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.formheading>p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.drop{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+    color: #7C0B0B66;
+    border: 1px solid #7C0B0B66;
+    height: 42px;
+        display: block;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.5;
+        background-image: url('../assets/Drop.svg');
+        background-repeat: no-repeat;
+        background-position: 98%;
+}
+.customform{
+    height: 42px;
+    border: 1px solid #7C0B0B4D;
+
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.customform::placeholder{
+    color:#7C0B0B66;
+    font-weight: 500;
+}
+.btndiv{
+    text-align: center;
+}
+.formbutton{
+    background-color: #7C0B0B;
+    color: white;
+    border: none;
+    width: 96px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    }
+    .drop:hover{
+        border-color: #7C0B0B;
+    }
+    .drop::selection{
+        background-color: #7C0B0B;
+    }
+@media(max-width: 1000px){
+   .formdiv{
+    margin: auto;
+    margin-bottom: 2rem;
+   }
+   .imgdiv{
+    margin: auto;  }
+}

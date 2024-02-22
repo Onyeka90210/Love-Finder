@@ -1,0 +1,60 @@
+.HIWbox{
+    border: solid;
+    border-color: #7C0B0B;
+    border-width: 1px;
+    border-radius: 30px;
+    width: 366px;
+    height: 328px;
+    padding: 40px;
+}
+.boxdiv{
+
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.AU{
+    
+    width: 85%;
+    margin: auto;
+    margin-top: 5rem;
+
+}
+.AU>h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.28rem;
+    margin-bottom: 1rem;
+}
+.AU>p{
+    font-weight: 500;
+    font-size: 1rem;
+}
+.HIW{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.28rem;
+    margin-top: 5rem;
+}
+.HIWboxinner>h3{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2rem;
+}
+.HIWboxinner>img{
+    width: 60px;
+    height: 50px;
+    margin-bottom: 1rem;
+}
+.HIWbox>p{
+    line-height: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+@media(max-width: 1000px){
+    .HIWbox{
+        text-align: justify;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+}

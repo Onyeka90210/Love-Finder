@@ -1,0 +1,56 @@
+.memdiv{
+    justify-content: center;
+    justify-content: space-around;
+    padding: 3%;
+}
+.membox{
+    width: 267px;
+    height: 198px;
+    background-color: #7C0B0B;
+    border: none;
+
+    border-radius: 30px;
+    padding: 35px;
+}
+.VA{
+    width: 83px;
+    height: 40px;
+    background-color: #7C0B0B;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+
+
+}
+.MPM{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.28rem;
+    margin-top: 5rem;
+}
+.membox>h3{
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    margin-top: 1rem;
+}
+.membox>p{
+    font-size: 0.75rem;
+    font-weight: 500;
+    line-height: 0.9rem;
+    margin-top: 1rem;
+
+}
+@media(max-width: 991.5px){
+    .mem{
+        display: flex;
+    }
+    .memdiv{
+        margin: auto;
+    }
+    .membox{
+        margin-bottom: 2rem;
+    }
+}

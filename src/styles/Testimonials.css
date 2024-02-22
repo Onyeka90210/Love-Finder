@@ -1,0 +1,84 @@
+.testdiv{
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.testbox{
+    width: 366px;
+    height: 328px;
+    border-radius: 30px;
+    background-color: #7C0B0B66;
+    padding: 5rem 1.8rem ;
+
+}
+.info{
+    gap: 0.5rem;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
+}
+.name{
+    padding-top: 1.9rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+.subdiv{
+    border: solid;
+    border-color: #7C0B0B;
+    border-radius: 30px;
+    border-width: 2px;
+    width: 560px;
+    height: 54px;
+
+}
+.sub{
+    border-radius: 30px;
+    background-color: #7C0B0B;
+    height: 54px;
+    width: 164px;
+    margin-left: -10rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+.TTM>h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.TTM>p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.testbox>p{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+}
+.SON>h2{
+    margin-top: 5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+
+}
+.SON>p{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 4rem;
+
+    
+}
+.TTM{
+    margin-top: 5rem;
+}
+.subdiv::placeholder{
+    font-weight: 500;
+    color: #7C0B0B;
+}
+@media(max-width: 1000px){
+    .testbox{
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+}
