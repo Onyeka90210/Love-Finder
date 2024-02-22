@@ -17,6 +17,7 @@
     color: white;
     font-size: 1rem;
 
+
 }
 
 .logo{   
@@ -67,7 +68,7 @@
 
 }
 .loginbtn{
-    font-size: 0.8rem;
+    width: 7rem;
 }
 }
 
