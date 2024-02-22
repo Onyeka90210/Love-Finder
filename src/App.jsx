@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './App.css'
 import Hero from './pages/Hero'
 import NavBar from './pages/NavBar'
 import Form from './pages/Form'
@@ -7,7 +8,6 @@ import About from './pages/About'
 import Members from './pages/Members'
 import Footer from './pages/Footer'
 import Testimonials from './pages/Testimonials'
-import './styles/NavBar.css'
 
 function App() {
 
