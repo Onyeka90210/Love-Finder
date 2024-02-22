@@ -97,4 +97,7 @@ Form{
    }
    .imgdiv{
     margin: auto;  }
+    .formbutton{
+        font-size: 0.8rem;
+    }
 }
